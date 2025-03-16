@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+
+}
+
+.container {
+    position: relative;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 600px;
+    display: flex;
+}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+    margin-left: 1rem;
+}
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #150909;
+    border-radius: 9px;
+    resize: vertical;
+}
+
+textarea:focus {
+    border-color: #0056b3;
+    outline: none;
+}
+#charCount{
+    position: absolute;
+    right: 40px;
+    bottom: 10px;
+    font-size: .8rem;
+}
