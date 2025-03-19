@@ -37,9 +37,23 @@ textarea:focus {
     border-color: #0056b3;
     outline: none;
 }
-#charCount{
+textarea.max-length:focus {
+    border-color: #df1212;  
+}
+#charCount {
+    font-weight: bold;
     position: absolute;
-    right: 40px;
-    bottom: 10px;
-    font-size: .8rem;
+    right: 58px;
+    bottom: 15px;
+  }
+
+.counter{
+    position: absolute;
+    right: 30px;
+    bottom: 15px;
+    font-size: .8rem; 
+}
+.max-length{
+    color: #df1212;
+    border: 2px solid #df1212;
 }
